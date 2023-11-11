@@ -357,7 +357,7 @@ public class LimboHub {
             new PacketMapping(0x04, ProtocolVersion.MINECRAFT_1_16, true),
             new PacketMapping(0x02, ProtocolVersion.MINECRAFT_1_19, true),
             new PacketMapping(0x03, ProtocolVersion.MINECRAFT_1_19_4, true),
-            new PacketMapping(0x04, ProtocolVersion.MINECRAFT_1_20_2, true), //TO DO: Just set to random num
+            new PacketMapping(0x01, ProtocolVersion.MINECRAFT_1_20_2, true), //TO DO: Need to fix packet on server side chaged: SpawnPlayer -> SpawnEntity https://wiki.vg/Protocol#Spawn_Entity
         })
         .registerPacket(PacketDirection.CLIENTBOUND, CloseContainer.class, CloseContainer::new, new PacketMapping[]{
             new PacketMapping(0x2E, ProtocolVersion.MINECRAFT_1_8, true),
