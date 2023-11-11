@@ -5,6 +5,7 @@
 FOR 1.20.2 UPDATE NEED TO CHANGE SpawnPlayer logic because it was removed :( 
 
 1.20.2 - https://wiki.vg/Protocol#Spawn_Entity
+
 1.20.1 - https://wiki.vg/index.php?title=Protocol&oldid=18375#Spawn_Player
 
 Virtual hub on Velocity proxy, built with LimboAPI.
