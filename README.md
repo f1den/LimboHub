@@ -2,6 +2,10 @@
 
 [![Join our Discord](https://img.shields.io/discord/775778822334709780.svg?logo=discord&label=Discord)](https://ely.su/discord)
 
+FOR 1.20.2 UPDATE NEED TO CHANGE SpawnPlayer logic because:
+1.20.2 - https://wiki.vg/Protocol#Spawn_Entity
+1.20.1 - https://wiki.vg/index.php?title=Protocol&oldid=18375#Spawn_Player
+
 Virtual hub on Velocity proxy, built with LimboAPI.
 
 ## Features
